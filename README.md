@@ -6,3 +6,4 @@
 ## 本代码如何使用？
 502行处DEMO_model=True为效果演示，展示单张图片进行增强的效果；
 DEMO_model=False,则对590行处的路径图片进行增强并保存。（图片和标签在同一路径下，且名字为images和labels）
+由于使用了mosaic9方法，请确保DEMO_model=False下，图片至少有9张。
